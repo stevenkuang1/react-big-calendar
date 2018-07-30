@@ -85,7 +85,8 @@ button.rbc-input::-moz-focus-inner {
 }
 .rbc-toolbar {
   display: -ms-flexbox;
-  display: flex;
+  display: contents;
+  float: left;
   -ms-flex-align: center;
       align-items: center;
   margin-bottom: 10px;
@@ -169,7 +170,8 @@ button.rbc-input::-moz-focus-inner {
 }
 .rbc-btn-group + .rbc-btn-group,
 .rbc-btn-group + button {
-  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .rbc-event {
   cursor: pointer;
